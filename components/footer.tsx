@@ -6,7 +6,7 @@ import Logo from "../public/logo.svg";
 
 const FooterSite = () => {
   return (
-    <div className="mt-12 lg:mt-24">
+      <div className="mt-12 mb-6 lg:mt-24">
     <div className="flex flex-row items-center justify-between gap-x-7 mx-auto">
       <div className="flex flex-row md:mb-0 lg:ml-8">
         <Image src={Logo} alt="LocalSolana" width={36} height={36} />

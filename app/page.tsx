@@ -1,6 +1,9 @@
 "use client";
 import Image from "next/image";
 import Logo from "../public/logo.svg";
+import Faqs from "../components/Faqs";
+import Subscribe from "../components/Subscribe";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -30,7 +33,9 @@ export default function Home() {
         </div>
       </div>
       <div className="items-center justify-center">
-        <div style={{ height: "" }}></div>
+	<Faqs />
+	<Subscribe />
+	<Footer />
       </div>
     </>
   );
