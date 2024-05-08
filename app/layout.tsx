@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-ls-dark">
-        <div className="container mx-auto px-4 overflow-hidden">{children}</div>
+        <div className="container mx-auto px-4">{children}</div>
       </body>
     </html>
   );

@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
 import Logo from "../public/logo.svg";
+import StickyParagraph from "../components/StickyParagraph";
 import Faqs from "../components/Faqs";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/footer";
 
 export default function Home() {
+
   return (
     <>
       <div className="w-full flex mt-8 items-center justify-center">
@@ -16,7 +18,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-full flex flex-col items-center mt-12 md:mt-18 lg:mt-24 mb-12 md:mb-18 lg:mb-24">
+      <div className="w-full flex flex-col items-center mt-12 md:mt-18 lg:mt-24 mb-12 md:mb-20 lg:mb-24">
         <div className="text-center mb-6">
           <h1 className="mt-36 text-5xl font-medium text-white">LocalSolana</h1>
         </div>
@@ -32,10 +34,13 @@ export default function Home() {
           </button>
         </div>
       </div>
+
       <div className="items-center justify-center">
-	<Faqs />
-	<Subscribe />
-	<Footer />
+
+	<StickyParagraph />
+        <Faqs />
+        <Subscribe />
+        <Footer />
       </div>
     </>
   );
