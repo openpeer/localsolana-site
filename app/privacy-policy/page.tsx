@@ -4,12 +4,12 @@ export default function PrivacyPolicyPage() {
   return (
     <>
       <DocsHeader />
-      <div className="mx-auto py-16 px-4 w-full md:w-2/3 text-gray-800">
-        <h2 className="text-2xl font-bold py-4 text-white">LOCALSOLANA PRIVACY POLICY</h2>
-        <span className="text-gray-400">Last modified: 9 May 2024</span>
+      <div className="mx-auto py-16 px-4 w-full md:w-2/3 text-gray-800 text-white">
+        <h2 className="text-2xl font-bold py-4">LOCALSOLANA PRIVACY POLICY</h2>
+        <span className="text-gray-400">Last Modified: May 9, 2024</span>
 
         <p className="mt-16 mb-4"></p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           This Privacy Policy (“Policy”) describes the manner in which
           LocalSolana ("we", "our", or "us") and our website at localsolana.com
           (the “Site”) use and collect data from individuals. This Policy, which
@@ -19,43 +19,43 @@ export default function PrivacyPolicyPage() {
           information, and the steps we take to protect such information.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg font-bold mb-4 underline">
           High Level Summary
         </h3>
         <ul className="list-disc pl-6">
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             LocalSolana Labs Inc. is an incorporated company based in the
             Republic of Panama that operates localsolana.com.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             LocalSolana Protocol is a set of smart contracts deployed across the
             Solana ecosystem.
             <span className="font-bold">
               It is not governed by LocalSolana Labs Inc.
             </span>
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             LocalSolana Protocol may collect and store personal data, such as
             first name, last name, street address, date of birth or email
             addresses.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             LocalSolana Protocol collects non-identifiable data such as public
             on-chain data and limited off-chain data like device type, browser
             version etc. This is to help drive production vision,
             <span className="font-bold"> not track users</span>.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             Users are empowered to explore client-side privacy techniques and
             tools
           </li>
         </ul>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg font-bold mb-4 underline">
           High Level Summary
         </h3>
         <ul className="list-disc pl-6">
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">
               Publicly Available Blockchain Data
             </span>
@@ -68,14 +68,14 @@ export default function PrivacyPolicyPage() {
             created or assigned by us or any central party, and by themselves
             are not personally identifying.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Personal Data.</span> We may collect and
             log your personal information such as your email address, name and
             other personal data. Note that you are agreeing to share this
             information with us when you choose to sign up for an LocalSolana
             account.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">
               Information from local storage and other tracking technologies.
             </span>{" "}
@@ -88,7 +88,7 @@ export default function PrivacyPolicyPage() {
             browser “Help” file to learn the proper way to modify your cookie
             settings.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Information from other sources. </span>{" "}
             We may receive information about your wallet address or transactions
             made through the Site from our service providers in order to comply
@@ -97,21 +97,21 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
 
-        <p className="mt-8 font-bold text-center underline text-white">
+        <p className="mt-8 font-bold text-center underline ">
           Under no circumstances will LocalSolana request for you to share
           personal information such as private keys or seed phrases.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
           How We Use the Information We Collect
         </h3>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           We use information we collect on the Site in a variety of ways in
           providing the Site and operating our business, including the
           following:
         </p>
         <ul className="list-disc pl-6">
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Providing the Services.</span> We use
             the information that we collect on the Site to operate, maintain,
             enhance and provide all features of the Site, to provide services
@@ -120,38 +120,38 @@ export default function PrivacyPolicyPage() {
             and deliver entries and rewards in connection with promotions that
             may be offered from time to time on the Site.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Aggregated Data.</span> We use the
             information that we collect on the Site to understand and analyse
             the usage trends and preferences of our users, to improve the Site,
             and to develop new products, services, features, and functionality.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Safety and Security.</span> We may use
             data to protect against, investigate and stop fraudulent,
             unauthorised, or illegal activity. We may also use it to address
             security issues such as bugs, enforce our agreements and protect our
             users and company.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Marketing.</span> We use the information
             that we collect on the Site to send users marketing messages about
             our products and services.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             <span className="font-bold">Legal Compliance.</span> We may use the
             information we collect as needed or requested by regulators,
             government entities, and law enforcement to comply with applicable
             laws and regulations.
           </li>
         </ul>
-        <p className="mb-4 mt-8 text-white">
+        <p className="mb-4 mt-8 ">
           We do not collect the content of your communications with other
           LocalSolana users. All communication is through a third party service
           enabling wallet-to-wallet communications. These channels are
           end-to-end encrypted and are not accessible to LocalSolana.
         </p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           We may send you messages by email or push notifications, with updates
           about our services, news related to cryptocurrency or decentralised
           finance, and marketing messages. You have the right to opt-out of
@@ -160,35 +160,35 @@ export default function PrivacyPolicyPage() {
           at contact@localsolana.com.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
           When We Disclose Information
         </h3>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           Except as described in this Policy, we will not disclose information
           about you that we collect on the Site to third parties without your
           consent. We may disclose information to third parties if you consent
           to us doing so, as well as in the following circumstances:
         </p>
         <ul className="list-disc pl-6">
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             Any information that you voluntarily choose to include in a publicly
             accessible area of the Site will be available to anyone who has
             access to that content, including other users.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             We work with third party service providers to provide website,
             application development, hosting, maintenance, printing, and other
             services for us. These third parties may have access to or process
             information about you as part of providing those services for us.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             We may disclose information about you if required to do so by law or
             in the good-faith belief that such action is necessary to comply
             with state and federal laws, in response to a court order, judicial
             or other government subpoena or warrant, or to otherwise cooperate
             with law enforcement or other governmental agencies.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             We also reserve the right to disclose information about you that we
             believe, in good faith, is appropriate or necessary to: (i) take
             precautions against liability; (ii) protect ourselves or others from
@@ -200,7 +200,7 @@ export default function PrivacyPolicyPage() {
             limited to, enforcement of our agreements), or the rights, property,
             or safety of others.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             Information about our users may be disclosed and otherwise
             transferred to an acquirer, successor, or assignee as part of any
             merger, acquisition, debt financing, sale of assets, or similar
@@ -208,7 +208,7 @@ export default function PrivacyPolicyPage() {
             receivership in which information is transferred to one or more
             third parties as one of our business assets.
           </li>
-          <li className="text-white mb-2">
+          <li className=" mb-2">
             We may make certain aggregated, automatically-collected, or
             otherwise non-personal information available to third parties for
             various purposes, including: (i) compliance with various reporting
@@ -220,8 +220,8 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">Your Choices</h3>
-        <p className="mb-4 text-white">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">Your Choices</h3>
+        <p className="mb-4">
           You may, of course, decline to share certain information with us, in
           which case we may not be able to provide to you some of the features
           and functionality of the Site. You may update, correct, or delete your
@@ -230,11 +230,11 @@ export default function PrivacyPolicyPage() {
           any other personal information we hold about you, you may contact us
           at contact@localsolana.com.
         </p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           We reserve the right to charge a reasonable fee for the costs of
           retrieval and supply of any requested information.
         </p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           Please note that while any changes you make will be reflected in
           active user databases within a reasonable period of time, we may
           retain all information you submit for backups, archiving, prevention
@@ -243,26 +243,26 @@ export default function PrivacyPolicyPage() {
           to do so.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">Complaints</h3>
-        <p className="mb-4 text-white">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">Complaints</h3>
+        <p className="mb-4">
           If you have any questions or concerns about our collection, use or
           disclosure of personal information, or if you believe we have not
           complied with this please contact us as set out below. We will
           investigate the complaint and determine whether a breach has occurred
           and what action, if any, to take.
         </p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           LocalSolana takes all privacy complaints seriously and will aim to
           resolve any such complaint in a timely and efficient manner.
         </p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           LocalSolana expects our procedures will deal fairly and promptly with
           your complaint. However, if you remain dissatisfied, you can also make
           a formal complaint with the Officer of the Autoridad Nacional De
           Transparencia Y Acceso A La Información (which is the regulator
           responsible for privacy in Panama) at:
         </p>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           Telephone Number: (507) 527-9270 to 74
           <br />
           Mailing Address: Ave. del Prado, Building 713, Balboa, Ancon, Panama,
@@ -271,10 +271,10 @@ export default function PrivacyPolicyPage() {
           Website: www.antai.gob.pa
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
           Third-Party Sites
         </h3>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           The Site may contain features or links to websites and services
           provided by third parties. Any information you provide on third-party
           sites or services is provided directly to the operators of such
@@ -287,10 +287,10 @@ export default function PrivacyPolicyPage() {
           information.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
           Age Requirements
         </h3>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           Protecting the privacy of young children is especially important. Our
           Site is a general audience site not directed to children under the age
           of 18, and we do not knowingly collect personal information from
@@ -299,8 +299,10 @@ export default function PrivacyPolicyPage() {
           contact@localsolana.com.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">Data Security</h3>
-        <p className="mb-4 text-white">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
+          Data Security
+        </h3>
+        <p className="mb-4">
           We use certain managerial, and technical safeguards that are designed
           to improve the integrity and security of information that we collect
           and maintain. Please be aware that no security measures are perfect or
@@ -309,19 +311,19 @@ export default function PrivacyPolicyPage() {
           breach of any of our physical, technical, or managerial safeguards.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
           Notification of Breach
         </h3>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           In the event of any loss or unauthorised access or disclosure of your
           personal information that is likely to result in serious harm to you,
           we will investigate and notify you as soon as possible.
         </p>
 
-        <h3 className="mt-8 text-lg text-white font-bold mb-4 underline">
+        <h3 className="mt-8 text-lg  font-bold mb-4 underline">
           Changes and Updates to this Policy
         </h3>
-        <p className="mb-4 text-white">
+        <p className="mb-4">
           Please revisit this page periodically to stay aware of any changes to
           this Policy, which we may update from time to time. If we modify this
           Policy, we will make it available through the Site, and indicate the

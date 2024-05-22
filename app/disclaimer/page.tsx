@@ -4,14 +4,14 @@ export default function DisclaimerPage() {
   return (
     <>
       <DocsHeader />
-      <div className="mx-auto py-16 px-4 w-full md:w-2/3 text-gray-800">
-        <h2 className="text-white text-2xl font-bold py-4">
+      <div className="mx-auto py-16 px-4 w-full md:w-2/3 text-gray-800 text-white">
+        <h2 className="text-2xl font-bold py-4">
           LOCALSOLANA PROTOCOL DISCLAIMER
         </h2>
-        <span className="text-gray-400">Last modified: 9 May 2024</span>
+        <span className="text-gray-400">Last Modified: May 9, 2024</span>
 
         <p className="mt-16 mb-4" />
-        <p className="text-white mb-4">
+        <p className="mb-4">
           LocalSolana is a decentralized self custody peer to peer protocol on the
           Solana Blockchain which allows users to trade crypto and fiat
           between each other. There is currently one version of the LocalSolana
@@ -32,7 +32,7 @@ export default function DisclaimerPage() {
           those interfaces to understand the fees and risks they present.
         </p>
 
-        <p className="text-white mb-4">
+        <p className="mb-4">
           AS DESCRIBED IN THE LOCALSOLANA PROTOCOL TERMS OF SERVICE AGREEMENT, THE
           LOCALSOLANA PROTOCOL IS PROVIDED "AS IS", AT YOUR OWN RISK, AND WITHOUT
           WARRANTIES OF ANY KIND. Although LocalSolana Labs Inc. a corporate entity
@@ -55,7 +55,7 @@ export default function DisclaimerPage() {
           associated DAO, Organisation or d/b/a entity.
         </p>
 
-        <p className="text-white mb-4">
+        <p className="mb-4">
           LOCALSOLANA PROTOCOL RESERVES THE RIGHT TO MODIFY THIS DISCLAIMER AND
           WILL NOTIFY YOU BY REUPLOADING A CURRENT VERSION OF THIS DISCLAIMER AT
           THE SAME LINK. ALL MODIFICATIONS WILL BE EFFECTIVE WHEN THEY ARE

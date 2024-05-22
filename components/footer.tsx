@@ -18,7 +18,7 @@ const FooterSite = () => {
           </h3>
 	  <div className="flex flex-row md:hidden pt-2 self-center gap-x-4">
 	  <a
-            href="https://twitter.com/openpeer_xyz"
+            href="https://twitter.com/LocalSolana"
             target="_blank"
             rel="noreferrer"
             className="sm:pb-2 pr-2 md:pb-0 md:m-auto"
@@ -27,7 +27,7 @@ const FooterSite = () => {
           </a>
 
           <a
-            href="https://discord.gg/Wrf9BT8sZN"
+            href="https://discord.gg/bwU2uFUH6J"
             target="_blank"
             rel="noreferrer"
             className="sm:pb-2 pr-2 md:pb-0 md:m-auto"
