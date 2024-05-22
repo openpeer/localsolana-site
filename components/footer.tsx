@@ -38,7 +38,7 @@ const FooterSite = () => {
         </div>
 
         <div className="flex flex-col sm:items-start md:items-center md:justify-center  md:flex-row  text-white">
-          <a
+         {/* <a
             href="https://docs.openpeer.xyz"
             target="_blank"
             rel="noreferrer"
@@ -46,7 +46,7 @@ const FooterSite = () => {
           >
             Docs
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#82FFBC] transition-all group-hover:w-2/3"></span>
-          </a>
+          </a> */}
           <a href="/disclaimer" className="sm:pb-2 md:pb-0 md:pr-2 text-base relative group">
             Disclaimer
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#82FFBC] transition-all group-hover:w-2/3"></span>
@@ -63,7 +63,7 @@ const FooterSite = () => {
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#82FFBC] transition-all group-hover:w-2/3"></span>
           </a>
           <a
-            href="https://twitter.com/openpeer_xyz"
+            href="https://twitter.com/localsolana"
             target="_blank"
             rel="noreferrer"
             className="sm:pb-2 pr-2 md:pb-0 md:m-auto max-md:hidden"
@@ -72,7 +72,7 @@ const FooterSite = () => {
           </a>
 
           <a
-            href="https://discord.gg/Wrf9BT8sZN"
+            href="https://discord.gg/bwU2uFUH6J"
             target="_blank"
             rel="noreferrer"
             className="sm:pb-2 pr-2 md:pb-0 md:m-auto max-md:hidden"

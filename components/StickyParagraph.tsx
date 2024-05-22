@@ -6,7 +6,7 @@ const clamp = (num: number, min: number, max: number): number => {
 
 const content = {
   firstSection:
-    "Peer-to-peer. Decentralized. Self-custodial. Directly from your wallet. Trade between crypto and fiat. Trade SOL. Trade memecoins. Trade stablecoins. Trade it all. Are you ready to experience the best P2P experience in crypto?",
+    "Peer-to-peer payments. Decentralized. Self-custodial. Directly from your wallet. Trade between crypto and fiat. Trade SOL. Trade memecoins. Trade stablecoins. Trade it all. Are you ready to experience the best P2P experience in crypto?",
 };
 
 export default function StickyParagraph() {
