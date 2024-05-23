@@ -1,8 +1,13 @@
 "use client";
 import Image from "next/image";
 import Logo from "../public/logo.svg";
+import StickyParagraph from "../components/StickyParagraph";
+import Faqs from "../components/Faqs";
+import Subscribe from "../components/Subscribe";
+import Footer from "../components/footer";
 
 export default function Home() {
+
   return (
     <>
       <div className="w-full flex mt-8 items-center justify-center">
@@ -13,14 +18,14 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-full flex flex-col items-center mt-12 md:mt-18 lg:mt-24 mb-12 md:mb-18 lg:mb-24">
+      <div className="w-full flex flex-col items-center mt-12 md:mt-18 lg:mt-24 mb-12 md:mb-20 lg:mb-24">
         <div className="text-center mb-6">
           <h1 className="mt-36 text-5xl font-medium text-white">LocalSolana</h1>
         </div>
 
-        <p className="text-center space-x-4 text-xl mb-6 text-white">
+        <p className="text-center space-x-4 text-2xl mb-6 text-white">
           Trade between fiat and crypto peer-to-peer on{" "}
-          <br className="hidden md:block" /> the best chain for payment.
+          <br className="hidden md:block" /> the best chain for payments.
         </p>
 
         <div className="rounded-md bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5">
@@ -29,8 +34,13 @@ export default function Home() {
           </button>
         </div>
       </div>
+
       <div className="items-center justify-center">
-        <div style={{ height: "" }}></div>
+
+	<StickyParagraph />
+        <Faqs />
+        <Subscribe />
+        <Footer />
       </div>
     </>
   );
