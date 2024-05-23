@@ -49,7 +49,7 @@ const FAQ = () => {
                 onClick={() => handleToggleAccordion(index)}
                 className="w-full text-left py-4 flex justify-between items-center bg-transparent focus:outline-none"
               >
-                <h3 className="font-bold text-xl">{faq.question}</h3>
+                <h3 className="font-semibold text-xl">{faq.question}</h3>
                 <svg
                   className={`w-6 h-6 transition-transform transform ${openIndex === index ? "rotate-45" : ""}`}
                   viewBox="0 0 24 24"

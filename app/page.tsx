@@ -23,9 +23,9 @@ export default function Home() {
           <h1 className="mt-36 text-5xl font-medium text-white">LocalSolana</h1>
         </div>
 
-        <p className="text-center space-x-4 text-xl mb-6 text-white">
+        <p className="text-center space-x-4 text-2xl mb-6 text-white">
           Trade between fiat and crypto peer-to-peer on{" "}
-          <br className="hidden md:block" /> the best chain for payment.
+          <br className="hidden md:block" /> the best chain for payments.
         </p>
 
         <div className="rounded-md bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5">

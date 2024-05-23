@@ -33,7 +33,7 @@ const sm = window.innerWidth >= 640
   const textB = firstSectionArray.slice(textIndex).join(' ');
 
   return (
-    <div className="w-full sm:h-[1000px] md:h-[1200px] text-[32px] md:text-[64px] leading-[50px] md:leading-[80px]">
+    <div className="w-full sm:h-[1000px] md:h-[1200px] text-[32px] md:text-[48px] leading-[50px] md:leading-[80px]">
       <p className="sticky mx-4 top-[20px] sm:top-[50px] text-white poppins-font text-center">
         <span className="opacity-100">{textA}</span>
         <span className="opacity-20">{textB}</span>

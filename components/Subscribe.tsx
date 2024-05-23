@@ -31,7 +31,7 @@ const Subscribe: React.FC = () => {
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-center lg:mr-8">
-        <div className="rounded-2xl bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5 mb-2 md:mb-0 md:mr-2">
+        <div className="rounded-2xl bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5 mb-4 md:mb-0 md:mr-2">
           <input
             type="email"
             placeholder="Enter your email..."
