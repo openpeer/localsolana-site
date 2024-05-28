@@ -41,11 +41,12 @@ const Subscribe: React.FC = () => {
         </div>
 
         <div className="h-1/2 md:w-full rounded-md bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5">
-          <button className="items-center justify-center rounded px-4 py-2 bg-[#0d1117]"
+          <button className="items-center justify-center rounded px-4 py-2 bg-[#0d1117] hover:bg-[#2A3033]"
                   onClick={openInNewTab}
                   disabled={!isValid}>
             <p className="text-xs font-light text-white">GET UPDATES</p>
           </button>
+	  
         </div>
       </div>
     </div>

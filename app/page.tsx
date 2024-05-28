@@ -29,15 +29,20 @@ export default function Home() {
         </p>
 
         <div className="rounded-md bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5">
-          <button className="flex w-full items-center justify-center rounded p-0.5 px-4 py-2 bg-[#0d1117]">
-            <p className="text-xs font-light text-white">COMING SOON</p>
-          </button>
+          <a
+            href="https://www.x.com/localsolana"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex w-full items-center justify-center rounded p-0.5 px-4 py-2 bg-[#0d1117] hover:bg-[#2A3033]">
+              <p className="text-xs font-light text-white">COMING SOON</p>
+            </button>
+          </a>
         </div>
       </div>
 
       <div className="items-center justify-center">
-
-	<StickyParagraph />
+        <StickyParagraph />
         <Faqs />
         <Subscribe />
         <Footer />
