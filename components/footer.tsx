@@ -38,15 +38,15 @@ const FooterSite = () => {
         </div>
 
         <div className="flex flex-col sm:items-start md:items-center md:justify-center  md:flex-row  text-white">
-         {/* <a
-            href="https://docs.openpeer.xyz"
+          <a
+            href="https://docs.localsolana.com/"
             target="_blank"
             rel="noreferrer"
             className="sm:py-2 md:py-0 md:pr-2 text-base relative group"
           >
             Docs
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#82FFBC] transition-all group-hover:w-2/3"></span>
-          </a> */}
+          </a> 
           <a href="/disclaimer" className="sm:pb-2 md:pb-0 md:pr-2 text-base relative group">
             Disclaimer
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#82FFBC] transition-all group-hover:w-2/3"></span>
