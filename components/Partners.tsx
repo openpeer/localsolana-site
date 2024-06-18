@@ -1,0 +1,37 @@
+import React from "react";
+import Image from "next/image";
+
+import outlierVentures from "../public/partners/outlierventures.png";
+import baboonVC from "../public/partners/baboonvc.png";
+import w3iLogoWhite from "../public/partners/w3ilogowhite.png";
+import bitfwdLogoWhite from "../public/partners/bitfwdlogowhite.png";
+import ybbFoundationLtd from "../public/partners/ybbFoundation.png";
+
+const Partners = () => {
+	return (
+		<div className="w-full flex justify-center items-center flex-col text-center space-y-4 md:mb-24">
+			<h3 className="text-4xl mt-24 text-white">Backers and Partners</h3>
+			<div className="w-full flex flex-col justify-center items-center md:flex-row gap-8">
+				<div className="grid grid-cols-3 gap-1 px-3 sm:grid-cols-5 md:px-0 lg:grid-cols-5 lg:gap-4">
+					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#9FFAC3]/10 to-transparent h-16">
+						<Image src={outlierVentures} alt="Outlier Ventures" />
+					</div>
+					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#9FFAC3]/10 to-transparent h-16">
+						<Image src={baboonVC} alt="Polygon" />
+					</div>
+					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#9FFAC3]/10 to-transparent h-16">
+						<Image className="w-20" src={w3iLogoWhite} alt="W3i" />
+					</div>
+					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#9FFAC3]/10 to-transparent] h-16">
+						<Image src={bitfwdLogoWhite} alt="Bitfwd" />
+					</div>
+					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#9FFAC3]/10 to-transparent] h-16">
+						<Image src={ybbFoundationLtd} alt="YBB Foundation" />
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Partners;

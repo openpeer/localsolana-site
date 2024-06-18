@@ -36,7 +36,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="max-w-[60rem] mx-auto space-y-4 md:space-y-0 mt-20 md:justify-start text-white mb-12 md:mb-20 lg:mb-24">
+    <div className="max-w-[60rem] mx-auto space-y-4 md:space-y-0 mt-10 md:justify-start text-white mb-12 md:mb-20 lg:mb-24">
       <h3 className="text-4xl text-center mb-8">FAQs</h3>
       <div className="space-y-4 w-full">
         {faqData.map(

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Logo from "../public/logo.svg";
 import StickyParagraph from "../components/StickyParagraph";
+import Partners from "../components/Partners";
 import Faqs from "../components/Faqs";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/footer";
@@ -43,6 +44,7 @@ export default function Home() {
 
       <div className="items-center justify-center">
         <StickyParagraph />
+	<Partners />
         <Faqs />
         <Subscribe />
         <Footer />
