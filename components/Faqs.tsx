@@ -21,7 +21,7 @@ const FAQ = () => {
     {
       question: "When is it launching?",
       answer:
-        "LocalSolana is in development and is launching at the end of Q2 2024",
+        "LocalSolana is in development and on track to launch early Q3 2024",
     },
     {
       question: "How does it work?",
