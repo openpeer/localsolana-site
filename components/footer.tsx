@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import discord from "../public/discord.svg";
 import twitter from "../public/twitter.svg";
+import telegram from "../public/telegram.svg";
 import Logo from "../public/logo.svg";
 
 const FooterSite = () => {
@@ -30,10 +31,20 @@ const FooterSite = () => {
             href="https://discord.gg/bwU2uFUH6J"
             target="_blank"
             rel="noreferrer"
-            className="sm:pb-2 pr-2 md:pb-0 md:m-auto"
+            className="pt-0.5 pr-2 md:pb-0 md:m-auto"
           >
             <Image src={discord} alt="Discord" width={18} height={18} />
           </a>
+
+          <a
+          href="https://t.me/localsolana"
+            target="_blank"
+            rel="noreferrer"
+            className="sm:pb-2 pr-2 md:pb-0 md:m-auto"
+          >
+            <Image src={telegram} alt="Telegram" width={18} height={18} />
+          </a>
+	  
 </div>
         </div>
 
@@ -79,6 +90,16 @@ const FooterSite = () => {
           >
             <Image src={discord} alt="Discord" width={18} height={18} />
           </a>
+
+	  <a
+      href="https:://t.me/localsolana"
+            target="_blank"
+            rel="noreferrer"
+            className="sm:pb-2 pr-2 md:pb-0 md:m-auto max-md:hidden"
+          >
+            <Image src={telegram} alt="Telegram" width={18} height={18} />
+          </a>
+	  
         </div>
       </div>
       <p className="flex flex-row text-sm pt-4 text-[#B7B7B7] items-center justify-center">
