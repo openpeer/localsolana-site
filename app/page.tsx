@@ -6,8 +6,10 @@ import Partners from "../components/Partners";
 import Faqs from "../components/Faqs";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/footer";
-import WaitList from "../components/WaitList";
+// import WaitList from "../components/WaitList";
+import dynamic from 'next/dynamic';
 
+const WaitList = dynamic(() => import('../components/WaitList'), { ssr: false });
 
 export default function Home() {
 
