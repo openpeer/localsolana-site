@@ -6,6 +6,8 @@ import Partners from "../components/Partners";
 import Faqs from "../components/Faqs";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/footer";
+import WaitList from "../components/WaitList";
+
 
 export default function Home() {
 
@@ -30,7 +32,8 @@ export default function Home() {
         </p>
 
         <div className="rounded-md bg-gradient-to-b from-[#610DEA] via-[#56DEDE] to-[#82FFBC] p-0.5">
-          <a
+        <WaitList />
+          {/* <a
             href="https://www.x.com/localsolana"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +41,7 @@ export default function Home() {
             <button className="flex w-full items-center justify-center rounded p-0.5 px-4 py-2 bg-[#0d1117] hover:bg-[#2A3033]">
               <p className="text-xs font-light text-white">COMING SOON</p>
             </button>
-          </a>
+          </a> */}
         </div>
       </div>
 
