@@ -10,9 +10,19 @@ const WaitList = () => {
     link.href = 'https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css';
     document.head.appendChild(link);
 
+    // Add custom CSS to hide the image
+    const style = document.createElement('style');
+    style.textContent = `
+      #getWaitlistContainer img {
+        display: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+
     // Cleanup function
     return () => {
       document.head.removeChild(link);
+      document.head.removeChild(style);
     };
   }, []);
 
