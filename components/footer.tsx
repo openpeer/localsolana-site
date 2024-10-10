@@ -44,6 +44,8 @@ const FooterSite = () => {
           >
             <Image src={telegram} alt="Telegram" width={18} height={18} />
           </a>
+
+          
 	  
 </div>
         </div>
@@ -92,7 +94,7 @@ const FooterSite = () => {
           </a>
 
 	  <a
-      href="https:://t.me/localsolana"
+      href="https://t.me/localsolana"
             target="_blank"
             rel="noreferrer"
             className="sm:pb-2 pr-2 md:pb-0 md:m-auto max-md:hidden"
