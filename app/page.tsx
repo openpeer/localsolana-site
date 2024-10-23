@@ -6,6 +6,7 @@ import Partners from "../components/Partners";
 import Faqs from "../components/Faqs";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/footer";
+import WhitePaper from "../components/WhitePaper";
 // import WaitList from "../components/WaitList";
 import dynamic from 'next/dynamic';
 
@@ -49,7 +50,8 @@ export default function Home() {
 
       <div className="items-center justify-center">
         <StickyParagraph />
-	<Partners />
+	      <Partners />
+        <WhitePaper />
         <Faqs />
         <Subscribe />
         <Footer />
