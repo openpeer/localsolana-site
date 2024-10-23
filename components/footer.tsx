@@ -51,6 +51,15 @@ const FooterSite = () => {
         </div>
 
         <div className="flex flex-col sm:items-start md:items-center md:justify-center  md:flex-row  text-white">
+        <a
+            href="/LocalSolana-Litepaper-v01.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="sm:py-2 md:py-0 md:pr-2 text-base relative group"
+          >
+            LitePaper
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#82FFBC] transition-all group-hover:w-2/3"></span>
+          </a> 
           <a
             href="https://docs.localsolana.com/"
             target="_blank"
